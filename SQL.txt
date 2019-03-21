@@ -1,0 +1,9 @@
+CREATE DATABASE arselinda; USE
+    arselinda;
+CREATE TABLE product( 
+ID INT PRIMARY KEY AUTO_INCREMENT, 
+Name VARCHAR(100) NOT NULL, 
+Description VARCHAR(100) NOT NULL, 
+Price DOUBLE NOT NULL, 
+Quantity INT NOT NULL
+);
